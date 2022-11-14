@@ -1,0 +1,22 @@
+<div class="questions">
+  <ul>
+    <li>
+      <%= @question %>
+      <br>
+      <%= @answer %>
+    </li>
+  </ul>
+</div>
+
+<div class="main">
+
+<div class="title">
+  <h1>Stupid Coaching</h1>
+</div>
+
+<div class="button">
+  <form action="answer" data-turbo="false">
+    <input type="text" name="question">
+    <input type="submit" value="Ask">
+  </form>
+<div>
